@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.hidden {
+  display: none;
+}
+
+.breed-select,
+.cat-info {
+  margin: 20px 0;
+  width: 600px;
+}
+
+.cat-info img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.loader,
+.error {
+  color: red;
+  font-weight: bold;
+}

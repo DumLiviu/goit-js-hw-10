@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Finder</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.26.0/slimselect.min.css"
+    />
+  </head>
+  <body>
+    <select class="breed-select hidden"></select>
+    <div class="loader hidden">
+      <div class="loader-inner ball-pulse">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="cat-info hidden">
+      <img class="cat-image" alt="Cat Image" />
+      <h2 class="cat-name"></h2>
+      <p class="cat-description"></p>
+      <p class="cat-temperament"></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/notiflix@3.2.5/dist/notiflix-aio-3.2.5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.26.0/slimselect.min.js"></script>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
